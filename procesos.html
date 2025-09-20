@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Gestión de Calidad - Procesos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Los Pinca Testers V2</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="calidad.html">CALIDAD DEL SOFTWARE</a></li>
+                <li><a href="procesos.html">PROCESOS DE DESARROLLO</a></li>
+                <li><a href="recursos.html">RECURSOS</a></li>
+                <li><a href="acerca-de.html">ACERCA DE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="procesos" class="section">
+            <h2 class="section-title">Procesos de Desarrollo de Software</h2>
+            <p>Un proceso de desarrollo de software es un marco de trabajo estructurado que se utiliza para planificar, crear, probar y desplegar software de alta calidad. Define quién hace qué, cuándo y cómo.</p>
+            
+            <div class="card-container">
+                <div class="card full-width">
+                    <h3>Ciclo de Vida del Desarrollo de Software (SDLC)</h3>
+                    <p>El Ciclo de Vida del Desarrollo de Software (SDLC) es el proceso lógico que siguen los equipos para construir y mantener software. Las etapas típicas son:</p>
+                    <ol>
+                        <li><strong>Planificación y Análisis de Requisitos 📝:</strong> Recopilar requisitos y definir el alcance.</li>
+                        <li><strong>Diseño 📐:</strong> Diseñar la arquitectura del sistema, UI/UX y lógica.</li>
+                        <li><strong>Desarrollo o Codificación 💻:</strong> Escribir el código fuente.</li>
+                        <li><strong>Pruebas (Testing) 🧪:</strong> Verificar el software en busca de defectos.</li>
+                        <li><strong>Despliegue o Implementación 🚀:</strong> Lanzar el software al entorno de producción.</li>
+                        <li><strong>Mantenimiento 🛠️:</strong> Corregir errores, actualizar y añadir nuevas funcionalidades.</li>
+                    </ol>
+                   
+                    <img src="img/img1.png" alt="Foto de SDLC" class="responsive-img">
+                </div>
+
+                <div class="card full-width">
+                    <h3>Modelos Tradicionales</h3>
+                    <p>Estos modelos, también llamados "predictivos", se caracterizan por requerir una planificación detallada desde el inicio y seguir una secuencia de fases más rígida.</p>
+                    
+                    <h4>Modelo en Cascada (Waterfall Model)</h4>
+                    <p>Cada fase del SDLC debe completarse antes de pasar a la siguiente.</p>
+                    <ul>
+                        <li><strong>Ventajas:</strong> Simple, buena documentación, gestión sencilla.</li>
+                        <li><strong>Desventajas:</strong> Muy rígido, entrega tardía, alto riesgo.</li>
+                        <li><strong>¿Cuándo usarlo?</strong> En proyectos pequeños y con requisitos estables.</li>
+                    </ul>
+                    <img src="img/modelocascada.png" alt="Modelo cascada" class="responsive-img">
+
+                    <h4>Modelo en V (V-Model)</h4>
+                    <p>Es una evolución del modelo en cascada que enfatiza la relación entre cada fase de desarrollo y su fase de prueba correspondiente.</p>
+                     <ul>
+                        <li><strong>Ventajas:</strong> Planificación temprana de pruebas, mayor probabilidad de éxito.</li>
+                        <li><strong>Desventajas:</strong> Sigue siendo rígido, el software se prueba al final.</li>
+                        <li><strong>¿Cuándo usarlo?</strong> En proyectos donde la fiabilidad es crítica (ej. software médico).</li>
+                    </ul>
+                    <img src="img/modelo en v.png" alt="Modelo v" class="responsive-img">
+
+                    <h4>Modelo Iterativo e Incremental</h4>
+                    <p>La idea es desarrollar el software en ciclos repetidos (iteraciones) y en pequeñas porciones (incrementos).</p>
+                    <ul>
+                        <li><strong>Ventajas:</strong> Flexibilidad, entregas tempranas, riesgo reducido.</li>
+                        <li><strong>Desventajas:</strong> Requiere buena planificación, costo total puede ser mayor.</li>
+                        <li><strong>¿Cuándo usarlo?</strong> Ideal para proyectos grandes y complejos. Es la base de las metodologías ágiles.</li>
+                    </ul>
+                    <img src="img/planificacion inicial.png" alt="Modelo iterativo" class="responsive-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistemas de Gestión de Calidad</title>
+    <title>Sistemas de Gestión de Calidad - Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- El CSS ya importa las fuentes, no es necesario volver a enlazarlas aquí -->
 </head>
 <body>
 
@@ -14,261 +14,62 @@
         <div class="logo">Los Pinca Testers V2</div>
         <nav class="nav">
             <ul class="nav-list">
-                <li><a href="#inicio">INICIO</a></li>
-                <li><a href="#calidad">CALIDAD DEL SOFTWARE</a></li>
-                <li><a href="#procesos">PROCESOS DE DESARROLLO</a></li>
-                <li><a href="#recursos">RECURSOS</a></li>
-                <li><a href="#acerca-de">ACERCA DE</a></li>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="calidad.html">CALIDAD DEL SOFTWARE</a></li>
+                <li><a href="procesos.html">PROCESOS DE DESARROLLO</a></li>
+                <li><a href="recursos.html">RECURSOS</a></li>
+                <li><a href="acerca-de.html">ACERCA DE</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main-content">
-        <section id="inicio" class="section hero-section">
+        <section class="hero-section">
             <h1>Sistemas de Gestión de Calidad</h1>
-            <p>Aquí aprenderás los conceptos clave para implementar sistemas de calidad en proyectos de software, conocerás las principales herramientas utilizadas por profesionales y descubrirás cómo los modelos tradicionales y modernos ayudan a garantizar la excelencia</p>
+            <p>Aprende, explora y garantiza la excelencia en tus proyectos de software.</p>
         </section>
- <!--INICIO SEGUNDA PANTALLA-->
-        <section id="calidad" class="section">
-            <h2 class="section-title"> ¿Qué es la Gestión de la Calidad del Software?</h2>
-            <p>La Gestión de la Calidad del Software (GCS) es el proceso de asegurar que un producto de software cumpla con los estándares de calidad definidos. Esto implica planificar, monitorear y mejorar la forma en que se desarrolla el software. Su objetivo principal es prevenir errores y garantizar un producto final confiable, eficiente y seguro.</p>
-          <div class="card-container">
-            <div class="card full-width">
-    <i class="fas fa-vial icon"></i>
-                    <h3>📘 Fundamentos de Calidad:</h3>
-                   
-                    <p>La calidad del software se define a través de varios atributos que determinan su valor y comportamiento. Los conceptos fundamentales son:</p>
-            <h4>Calidad del Software</h4>
-                    <ul>
-                <p>Un software de calidad debe ser:</p>
-                <li>Confiable: funcionar sin fallas en diferentes condiciones.</li>
-                <li>Eficiente: utilizar de manera óptima los recursos (tiempo de respuesta, memoria, etc.).</li>
-                <li>Usable: fácil de aprender y utilizar por el usuario final.</li>
-                <li>Mantenible: sencillo de modificar, corregir y actualizar.</li>
-                <li>Portátil: capaz de funcionar en distintos entornos y plataformas.</li>
-            </ul>
-            <h4>Métricas de Calidad</h4>
-            <p>Las métricas de calidad son indicadores que permiten medir objetivamente características del software. Algunas de las más utilizadas son:</p>
-            <ul>
-                <li>Corrección: número de defectos encontrados durante pruebas o uso.</li>
-                <li>Fiabilidad: tiempo medio entre fallos (MTBF).</li>
-                <li>Usabilidad: tiempo que tarda un usuario en aprender a usar el sistema.</li>
-                <li>Eficiencia: tiempo de respuesta o consumo de recursos.</li>
-                <li>Mantenibilidad: facilidad y costo de aplicar cambios.</li>
-            </ul>
-            <p>Estas métricas ayudan a evaluar la calidad del producto y a tomar decisiones para mejorar su desarrollo y mantenimiento.</p>
-            <h4>Estándares Internacionales</h4>
-            <p>📑ISO/IEC 9126</p>
-            <p>Fue uno de los primeros estándares de calidad de software. Define un modelo basado en 6 características principales:</p>
-            <ol>
-                <li>Funcionalidad</li>
-                <li>Fiabilidad</li>
-                <li>Usabilidad</li>
-                <li>Eficiencia</li>
-                <li>Mantenibilidad</li>
-                <li>Portabilidad</li>
-            </ol>
-            <p>Cada una se descompone en subcaracterísticas que permiten una evaluación más detallada</p>
-            <h4>📑ISO/IEC 25000 (SQuaRE)</h4>
-            <p>Es la evolución de la ISO 9126. Propone un marco más completo para la gestión de la calidad de software:</p>
-<ul>
-    <li>Define requisitos de calidad.</li>
-    <li>Establece métricas para evaluarla.</li>
-    <li>Incluye guías para la medición y validación.</li>
-</ul>
-<p>Su objetivo es facilitar que las organizaciones desarrollen productos que cumplan con estándares reconocidos internacionalmente.</p>
-        </div>
-                            <div class="card full-width">
-    <i class="fas fa-vial icon"></i>
-                    <h3>Herramientas de Calidad:</h3>
-                    <p>Para gestionar eficazmente la calidad, se utilizan diversas herramientas especializadas.</p>
-                <h4>✅Herramientas de Gestión de Pruebas</h4>
-                <p>Ayudan a organizar todo el proceso de testing:</p>
-                <ul>
-                    <li>Creación de planes de prueba.</li>
-                    <li>Diseño de casos de prueba.</li>
-                    <li>Asignación de pruebas a testers.</li>
-                    <li>Ejecución de pruebas.</li>
-                    <li>Generación de informes de resultados.</li>
-                      </ul>
-                    <p>Ejemplos:
-                        <a href="https://www.gurock.com/testrail/">TestRail</a>
-                        <a href="https://www.getxray.app/">Xray</a>
-                        <a href="https://smartbear.com/test-management/zephyr/">Zephyr</a>
-                        (estos dos últimos se integran con Jira).</p>
-              
-                <h4>✅Herramientas de Seguimiento de Defectos (Bug Tracking)</h4>
-                <p>Permiten registrar y dar seguimiento a errores encontrados durante pruebas o en producción. Cada bug se gestiona como un ticket, con información sobre:</p>
-                <ul>
-                    <li>Descripción del error.</li>
-                    <li>Prioridad y criticidad.</li>
-                    <li>Estado (abierto, en progreso, resuelto).</li>
-                    <li>Responsable asignado.</li>
-                </ul>
-                    <p>Ejemplos: 
-                        <a href="https://www.atlassian.com/software/jira">Jira</a>
-                        <a href="https://www.bugzilla.org/">Bugzilla</a>
-                        <a href="https://www.redmine.org/">Redmine</a>
-                        </p>
-                <h4>✅Herramientas de Análisis de Calidad de Código</h4>
-                <p> Analizan automáticamente el código fuente para detectar:</p>
-                <ul>
-                    <li>Errores potenciales.</li>
-                    <li>Vulnerabilidades de seguridad.</li>
-                    <li>Código duplicado o redundante.</li>
-                    <li>Malas prácticas de programación.</li>
-                     </ul>
-                    <p>Ejemplos: 
-                        <a href="https://www.sonarsource.com/sonarqube/">SonarQube</a>
-                        <a href="https://www.veracode.com/">Veracode</a>
-                        <a href="https://checkstyle.sourceforge.io/">Jira</a>
-                        Estas herramientas fomentan la mantenibilidad y robustez del software.
-                        </p>
-               
-                </div>
-             <div class="card full-width">
-    <i class="fas fa-vial icon"></i>
-                    <h3>Técnicas de Aseguramiento de la Calidad:</h3>
-                    <p>El QA se apoya en diversas técnicas, siendo las pruebas de software la más fundamental.</p>
-                       <p>Pruebas de Software (Software Testing): Consiste en ejecutar el software para verificar que funciona como se espera y para encontrar defectos. Se organiza en niveles y tipos.</p>
-                            <p>Niveles de Pruebas: Los niveles siguen un orden lógico, desde lo más pequeño hasta el sistema completo.</p>
-               <ol>
-                <li>Pruebas Unitarias: Se prueba el componente más pequeño del código (una función, un método) de forma aislada. Son rápidas y las suelen escribir los propios desarrolladores.</li>
-                <li>Pruebas de Integración: Se combinan dos o más unidades ya probadas y se verifica que funcionan juntas correctamente (por ejemplo, que el módulo de login se comunique bien con la base de datos de usuarios).</li>
-                <li>Pruebas de Sistema: Se prueba la aplicación completa y totalmente integrada para asegurar que cumple con todos los requisitos funcionales y no funcionales</li>
-                <li>Pruebas de Aceptación (UAT): Realizadas por el cliente o los usuarios finales para validar que el software resuelve sus necesidades y es "aceptado" para su lanzamiento.</li>
-                </ol>
-                <p>Tipos y Técnicas de Pruebas</p>
-                <p>Se clasifican según lo que se quiere probar y cómo se diseña la prueba.</p>
-                <ul>
-                    <li>Pruebas Funcionales: Verifican qué hace el sistema. Se basan en los requisitos.</li>
-                    <p>Ejemplo: Probar que un formulario de registro guarda la información del usuario correctamente</p>
-                    <ul>
-                        <li>Pruebas No Funcionales: Verifican cómo opera el sistema.</li>
-                            <ul>
-                                 <li>Pruebas de Rendimiento: ¿Es rápido? ¿Soporta muchos usuarios a la vez?</li>
-                                 <li>Pruebas de Usabilidad: ¿Es intuitivo y fácil de usar?</li>
-                                <li>Pruebas de Seguridad: ¿Es vulnerable a ataques?</li>
-                             </ul>
-                    </ul>
-                    <li>Técnicas de Diseño de Pruebas:</li>
-                        <ul>
-                            <li>Caja Negra (Black-Box Testing): Se realizan las pruebas sin conocer el código interno. Solo se validan las entradas y salidas. Es como usar una app sin saber cómo fue programada.</li>
-                            <li>Caja Blanca (White-Box Testing): Se diseñan las pruebas conociendo la estructura del código, para asegurar que se recorren todos los caminos lógicos posibles.</li>
-                            <li>Caja Gris (Gray-Box Testing): Una mezcla de ambas, donde el probador tiene un conocimiento parcial del sistema interno.</li>
-                        </ul>
-                </ul>
-                </div>
-               
-            </div>
-        </section>
-     <!--FIN SEGUNDA PANTALLA-->
-      <!--INICIO TERCERA PANTALLA-->
-        <section id="procesos" class="section">
-            <h2 class="section-title">Procesos de Desarrollo de Software</h2>
-            <p>Un proceso de desarrollo de software es un marco de trabajo estructurado que se utiliza para planificar, crear, probar y desplegar software de alta calidad. Define quién hace qué, cuándo y cómo.</p>
-            <div class="slider-container">
-                <div class="card slide">
-                    <h3>Ciclo de Vida del Desarrollo de Software (SDLC)</h3>
-                    <p>El Ciclo de Vida del Desarrollo de Software (SDLC - Software Development Life Cycle) es el proceso lógico que siguen los equipos de desarrollo para construir y mantener un software. Cada etapa produce una salida que es la entrada para la siguiente.</p>
-                <p>Las etapas típicas son:</p>
-                <ol>
-                    <li>Planificación y Análisis de Requisitos 📝: Es la fase fundamental. Se recopilan los requisitos de los clientes y stakeholders. Se define el alcance del proyecto, los objetivos, el presupuesto y los recursos necesarios. Se busca responder: ¿Qué problema vamos a resolver?</li>
-                <li>Diseño 📐: En esta etapa, los arquitectos y desarrolladores diseñan la arquitectura del sistema. Se definen los componentes de hardware y software, la estructura de la base de datos, las interfaces de usuario (UI/UX) y la lógica del sistema. Se responde a la pregunta: ¿Cómo lo vamos a construir?</li>
-                <li>Desarrollo o Codificación 💻: Es la fase donde los programadores escriben el código fuente, traduciendo las especificaciones del diseño en un software funcional. Es la etapa más larga del ciclo de vida.</li>
-                <li>Pruebas (Testing) 🧪: El equipo de calidad (QA) verifica el software en busca de defectos y errores. Se realizan diferentes niveles de pruebas (unitarias, de integración, de sistema) para asegurar que el producto cumple con los requisitos y funciona correctamente.</li>
-                <li>Despliegue o Implementación 🚀: Una vez que el software ha sido probado y aprobado, se lanza al mercado o se instala en el entorno del cliente (producción).</li>
-                <li>Mantenimiento 🛠️: Después del lanzamiento, el trabajo continúa. En esta fase se corrigen errores que aparecen durante el uso, se realizan actualizaciones y se añaden nuevas funcionalidades para mantener el software relevante y funcionando de manera óptima.</li>
-                </ol>
-                <img src="img/img1.png" alt="Foto de SDLC">
-                <p>Cada una de estas etapas es crucial. Omitir o realizar mal una de ellas (especialmente las primeras) inevitablemente genera problemas, retrasos y costos mucho mayores en las fases posteriores.</p>
-                </div>
 
-                    <div class="card slide">
-                    <h3>Modelos Tradicionales</h3>
-                    <p>Estos modelos, también llamados "predictivos", se caracterizan por requerir una planificación detallada desde el inicio y seguir una secuencia de fases más rígida. </p>
-                        <h4>Modelo en Cascada (Waterfall Model)</h4>
-                        <p>Es el modelo más antiguo y estricto. Cada fase del SDLC debe completarse por completo antes de pasar a la siguiente, como una cascada que fluye en una sola dirección. No hay vuelta atrás.</p>
-                        <ul>
-                            <li>Descripción:</li>
-                            <ol>
-                                <li>Análisis de Requisitos</li>
-                                <li>Diseño del Sistema</li>
-                                <li>Implementación (Codificación)</li>
-                                <li>Pruebas</li>
-                                <li>Despliegue</li>
-                                <li>Mantenimiento</li>
-                            </ol>
-                            <li>Ventajas:</li>
-                            <ul>
-                                <li>Simple y fácil de entender: Su estructura es lógica y secuencial.</li>
-                                <li>Buena documentación: Cada fase genera documentos detallados.</li>
-                                <li>Gestión sencilla: Los hitos son claros y fáciles de medir.</li>
-                            </ul>
-                            <li>Desventajas:</li>
-                            <ul>
-                                <li>Muy rígido: No permite cambios fácilmente. Si se descubre un error en una fase temprana, es muy costoso volver atrás.</li>
-                                <li>Entrega tardía: El cliente no ve el producto hasta el final del ciclo.</li>
-                                <li>Alto riesgo: No es adecuado para proyectos complejos o donde los requisitos no están claros desde el principio.</li>
-                            </ul>
-                            <li>¿Cuándo usarlo? En proyectos pequeños, bien definidos, y donde los requisitos son estables y se conocen completamente desde el inicio.</li>
-                        </ul>
-                        <img src="img/modelocascada.png" alt="Modelo cascada">
+        <!-- Sección con las nuevas tarjetas de navegación -->
+       <!-- HTML corregido -->
+<section class="section">
+   <h2 class="section-title">Explora Nuestras Secciones</h2>
+   <div class="card-container">
+      <!-- Tarjeta para Calidad del Software -->
+      <div class="card">
+          <i class="fas fa-award icon"></i>
+          <h3>Calidad del Software</h3>
+          <p>Explora los fundamentos, métricas, estándares y herramientas esenciales para asegurar la calidad en tus proyectos de software.</p>
+          <a href="calidad.html" class="btn">Saber Más</a>
+      </div>
 
-                        <h4>Modelo en V (V-Model)</h4>
-                        <p>Es una evolución del modelo en cascada. La diferencia clave es que enfatiza la relación entre cada fase de desarrollo y su correspondiente fase de prueba. Por cada etapa de desarrollo, hay una etapa de prueba paralela.</p>
-                <ul>
-                    <li>Descripción: El lado izquierdo de la "V" representa las fases de desarrollo (verificación), mientras que el lado derecho representa las fases de prueba (validación).</li>
-                    <ul>
-                        <li>Análisis de Requisitos <--> Pruebas de Aceptación</li>
-                        <li>Diseño de Alto Nivel <--> Pruebas de Sistema</li>
-                        <li>Diseño Detallado <--> Pruebas de Integración</li>
-                        <li>Codificación (en el vértice de la V) <--> Pruebas Unitarias</li>
-                    </ul>
-                    <li>Ventajas:</li>
-                    <ul>
-                        <li>Planificación temprana de pruebas: Las pruebas se diseñan desde el principio, lo que mejora la calidad.</li>
-                        <li>Mayor probabilidad de éxito: Al detectar errores en etapas tempranas, se reducen los riesgos.</li>
-                        <li>Similar al modelo en cascada en su simplicidad.</li>
-                    </ul>
-                    <li>Desventajas:</li>
-                    <ul>
-                        <li>Sigue siendo rígido: No maneja bien los cambios en los requisitos durante el ciclo.</li>
-                        <li>El software se prueba al final: Al igual que en la cascada, el producto funcional no está disponible hasta el final.</li>
-                    </ul>
-                    <li>¿Cuándo usarlo? En proyectos donde la fiabilidad y la precisión son críticas (ej. software médico, de aviación) y los requisitos son muy claros.</li>
-                </ul>
-                <img src="img/modelo en v.png" alt="Modelo v">
-                <h4>Modelo Iterativo e Incremental</h4>
-                <p>Estos dos modelos a menudo se combinan. La idea es desarrollar el software en ciclos repetidos (iteraciones) y en pequeñas porciones (incrementos).</p>
-                <ul>
-                    <li>Iterativo: Se desarrolla una versión del software, se obtiene feedback de los usuarios y luego se refina en ciclos sucesivos o iteraciones.</li>
-                    <li>Incremental: El software se construye pieza por pieza. En cada incremento, se añade una nueva funcionalidad al producto existente.</li>
-                    <li>Descripción:</li>
-                    <ol>
-                        <li>Se planifica y desarrolla un pequeño "incremento" funcional del software.</li>
-                        <li>Este incremento pasa por todas las fases (diseño, código, pruebas).</li>
-                        <li>Se entrega una versión funcional, aunque incompleta, del producto.</li>
-                        <li>Se recoge feedback y se inicia el ciclo para el siguiente incremento, mejorando lo existente y añadiendo nuevas funcionalidades.</li>
-                        <li>Se repite hasta que el producto está completo</li>
-                    </ol>
-                    <li>Ventajas:</li>
-                    <ul>
-                        <li>Flexibilidad: Permite incorporar cambios y feedback durante el desarrollo.</li>
-                        <li>Entregas tempranas: El cliente puede ver y usar partes funcionales del software mucho antes.</li>
-                        <li>Riesgo reducido: Los problemas se detectan en incrementos pequeños, lo que facilita su corrección.</li>
-                    </ul>
-                    <li>Desventajas:</li>
-                    <ul>
-                        <li>Requiere una buena planificación: Es necesario tener una idea clara de la arquitectura general desde el principio.</li>
-                        <li>Costo total puede ser mayor: La gestión de múltiples ciclos puede ser más compleja.</li>
-                    </ul>
-                    <li>¿Cuándo usarlo? Es ideal para proyectos grandes y complejos, donde los requisitos no están completamente definidos al inicio y se espera que cambien. Es la base de las metodologías ágiles modernas.</li>
-                </ul>
-                <img src="img/planificacion inicial.png" alt="Modelo iterativo">
-                    </div>
- <!--FIN TERCERA PANTALLA-->
-   
+      <!-- Tarjeta para Procesos de Desarrollo -->
+      <div class="card">
+          <i class="fas fa-project-diagram icon"></i>
+          <h3>Procesos de Desarrollo</h3>
+          <p>Conoce los diferentes ciclos de vida y modelos, desde el tradicional Cascada hasta las bases de las metodologías ágiles.</p>
+          <a href="procesos.html" class="btn">Ver Procesos</a>
+      </div>
+
+      <!-- Tarjeta para Recursos -->
+      <div class="card">
+          <i class="fas fa-book-open icon"></i>
+          <h3>Recursos</h3>
+          <p>Encuentra enlaces y herramientas para profundizar tus conocimientos en testing y gestión de calidad.</p>
+          <a href="recursos.html" class="btn">Ir a Recursos</a>
+      </div>
+
+      <!-- Tarjeta para Acerca De -->
+      <div class="card">
+          <i class="fas fa-users icon"></i>
+          <h3>Acerca de Nosotros</h3>
+          <p>Descubre más sobre nuestro equipo, 'Los Pinca Testers V2', y nuestra pasión por el software de calidad.</p>
+          <a href="acerca-de.html" class="btn">Conócenos</a>
+      </div>
+   </div>
+</section>
+
     </main>
+
 </body>
 </html>
+
